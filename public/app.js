@@ -355,7 +355,7 @@ jQuery(function($){
                     alignVert:false,
                     widthOnly:true,
                     reProcess:true,
-                    maxFontSize:300
+                    maxFontSize:200
                 }
             );
         }

@@ -8,7 +8,7 @@ Dark Purple : #A22FB0
 */
 
 html, body {
-    background-color: #1FC3FF;
+    background-image: url("../img/tiny-squares.png");
     height: 100%;
     width: 100%;
     margin: 0;
@@ -24,21 +24,21 @@ html, body {
 
 .btn {
     display: inline-block;
+    padding: 10px;
     height: 100%;
     width: 49%;
     margin-bottom: 0;
-    margin-top: 3em;
-    color: white;
+    color: #12FFBD;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 2em;
     line-height: 1.2;
     text-align: center;
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.8);
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
-    border: 5px solid #12FFBD;
+    border: 3px solid #12FFBD;
     border-radius: 5em;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -59,6 +59,10 @@ html, body {
     color: #12FFBD;
     text-decoration: none;
     background-color: #E6F5FD;
+}
+
+.btn:active {
+    color: red;
 }
 
 .btn:active,
@@ -102,12 +106,15 @@ html, body {
 
 .title {
     margin: 0px auto;
+    margin-bottom: 5%;
     text-align: center;
-    width: 100%;
+    width: 80%;
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    background-color: rgba(255,255,255,0.8);
+    color: #12D1BD;
+    font-size: 3em;
     font-weight: 300;
-    border: 10px solid #12FFBD;
+    border: 10px solid #12D1BD;
     border-radius: 10em;
 }
 
@@ -128,14 +135,18 @@ html, body {
 }
 
 .createGameWrapper .info{
-    color: #ECFFE0;
+    color: #12D1BD;
     font-weight: 400;
     font-size: 2em;
     margin-top: 1.5em;
 }
 
 .createGameWrapper{
-    color: #12FFBD;
+    margin-top: 5%;
+    background-color: rgba(255,255,255,0.8);
+    /*border: 5px solid #12FFBD;
+    border-radius: 3em;*/
+    color: #12D1BD;
     font-weight: 300;
 }
 
@@ -149,12 +160,12 @@ html, body {
     width: 200px;
     height: 60px;
     font-family: 'Quicksand', sans-serif;
-    color: #12FFBD;
+    color: white;
     font-weight: 300;
     font-size: 54px;
-    border: 1px dotted white;
+    border: 1px dotted #12FFBD;
     border-radius: 10px;
-    background: transparent;
+    background-color: rgba(18,255,189,0.8);
 }
 
 .info input#inputPlayerName {
@@ -175,10 +186,10 @@ html, body {
 }
 
 .joinGameWrapper .info {
-    font-size: 1.5em;
-    color: #ECFFE0;
+    font-size: 2em;
+    color: #12D1BD;
     height: 30%;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 .joinGameWrapper .btn {
@@ -297,7 +308,7 @@ html, body {
 
 .playerScore .playerName {
     width: 77%;
-    background-color: #ECFFE0;
+    background-color: #12D1BD;
 }
 
 #player1Score {
